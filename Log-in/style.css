@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main {
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: black 1px solid;
+    border-radius: 30px;
+}
+
+.sign-in {
+    grid-column: 1/2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.formulario {
+    height: 100%;
+    width: 80%;
+}
+
+
+/* comentario */
